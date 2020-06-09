@@ -1,59 +1,87 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core</title>
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  </head>
+  
+  <body>
+    <nav class="navbar">
+      <ul class="navbar-nav">
+        <li class="logo">
+          <a href="index.html" class="nav-link">
+            <span class="link-text logo-text">Core</span>
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fad"
+              data-icon="angle-double-right"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+              class="svg-inline--fa fa-angle-double-right fa-w-14 fa-5x"
+            >
+              <g class="fa-group">
+                <path
+                  fill="currentColor"
+                  d="M224 273L88.37 409a23.78 23.78 0 0 1-33.8 0L32 386.36a23.94 23.94 0 0 1 0-33.89l96.13-96.37L32 159.73a23.94 23.94 0 0 1 0-33.89l22.44-22.79a23.78 23.78 0 0 1 33.8 0L223.88 239a23.94 23.94 0 0 1 .1 34z"
+                  class="fa-secondary"
+                ></path>
+                <path
+                  fill="currentColor"
+                  d="M415.89 273L280.34 409a23.77 23.77 0 0 1-33.79 0L224 386.26a23.94 23.94 0 0 1 0-33.89L320.11 256l-96-96.47a23.94 23.94 0 0 1 0-33.89l22.52-22.59a23.77 23.77 0 0 1 33.79 0L416 239a24 24 0 0 1-.11 34z"
+                  class="fa-primary"
+                ></path>
+              </g>
+            </svg>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="moltenCore.html" class="nav-link">
+            <img src="images/Ragnaros.png" style="height: 50px; padding-left: 10px;" alt="ragnaros">
+            <span class="link-text">Molten Core</span>
+          </a>
+        </li>
+  
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <img src="images/Nefarian.gif" style="height: 40px; padding-left: 10px;" alt="nefarian">
+            <span class="link-text">Blackwing Lair</span>
+          </a>
+        </li>
+  
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <img src="images/Hakkar.webp" style="height: 50px; padding-left: 10px;" alt="hakkar">
+            <span class="link-text">Zul'Gurub</span>
+          </a>
+        </li>
+  
+        <li class="nav-item" id="discordButton">
+          <a href="#" class="nav-link">
+            <img src="images/Discord.png" style="height: 25px; padding-left: 20px;" alt="discord">
+            <span class="link-text">Discord</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  
+    <main>
 
-<link rel="stylesheet" href="main.css">
+    </main>
+</body>  
 
- <table class="table-background">
-    <caption style="color: rgb(255, 255, 255);">Lucifron</caption>
-    <thead>
-      <tr>
-        <th scope="col">Item</th>
-        <th scope="col">Main Spec</th>
-        <th scope="col">Off Spec</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td data-label="Item"><a href="https://classic.wowhead.com/item=16800/arcanist-boots" data-wowhead="item=16800" style="text-decoration: none; font-weight: 700;"></a></td>
-        <td data-label="Main Spec">Mage</td>
-        <td data-label="Off Spec"> - </td>
-      </tr>
-      <tr>
-        <td scope="row" data-label="Item"><a href="https://classic.wowhead.com/item=16829/cenarion-boots" data-wowhead="item=16829" style="text-decoration: none; font-weight: 700;"></a></td>
-        <td data-label="Main Spec">Healers (Druid)</td>
-        <td data-label="Off Spec">Druids</td>
-      </tr>
-      <tr>
-        <td scope="row" data-label="Item"><a href="https://classic.wowhead.com/item=17109" data-wowhead="item=17109" style="text-decoration: none; font-weight: 700;"></a></td>
-        <td data-label="Main Spec">Open</td>
-        <td data-label="Off Spec"> - </td>
-      </tr>
-      <tr>
-        <td scope="row" data-label="Item"><a href="https://classic.wowhead.com/item=16837/earthfury-boots" data-wowhead="item=16837" style="text-decoration: none; font-weight: 700;"></a></td>
-        <td data-label="Main Spec">Open</td>
-        <td data-label="Off Spec"> - </td>
-      </tr>
-      <tr>
-        <td scope="row" data-label="Item"><a href="https://classic.wowhead.com/item=16805" data-wowhead="item=16805" style="text-decoration: none; font-weight: 700;"></a></td>
-        <td data-label="Main Spec">Warlock</td>
-        <td data-label="Off Spec"> - </td>
-      </tr>
-      <tr>
-        <td scope="row" data-label="Item"><a href="https://classic.wowhead.com/item=16863" data-wowhead="item=16863" style="text-decoration: none; font-weight: 700;"></a></td>
-        <td data-label="Main Spec">Tank (Warrior)</td>
-        <td data-label="Off Spec"> - </td>
-      </tr>
-      <tr>
-        <td scope="row" data-label="Item"><a href="https://classic.wowhead.com/item=16859" data-wowhead="item=16859" style="text-decoration: none; font-weight: 700;"></a></td>
-        <td data-label="Main Spec">Holy (Paladin)</td>
-        <td data-label="Off Spec"> - </td>
-      </tr>
-    </tbody>
-  </table>
+  <script>const wowhead_tooltips = { "colorlinks": true, "iconizelinks": true, "renamelinks": true, "hide": { "droppedby": true, "dropchance": true } };</script>
+  <script>const whTooltips = {colorLinks: true, iconizeLinks: false, renameLinks: true};</script>
+  <script src="https://wow.zamimg.com/widgets/power.js"></script>
 
-<script>const wowhead_tooltips = { "colorlinks": true, "iconizelinks": true, "renamelinks": true, "hide": { "droppedby": true, "dropchance": true } }</script>
-<script>const whTooltips = {colorLinks: true, iconizeLinks: false, renameLinks: true};</script>
-<script src="https://wow.zamimg.com/widgets/power.js"></script>
 
 </html>
